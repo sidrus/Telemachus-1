@@ -5,6 +5,25 @@ VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemachus", "Telemachus\Telemachus.csproj", "{AF7DF6B2-7D88-4399-92FC-E21EC15231DE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8D3E7CD5-4B7C-4FEB-A8CA-17B8DB3B2CD7}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		LICENSE = LICENSE
+		readme.md = readme.md
+		TelemachusReborn.netkan = TelemachusReborn.netkan
+		TelemachusReborn.version = TelemachusReborn.version
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Licenses", "Licenses", "{1994DEE0-CB43-4F2C-947F-65195890FD7B}"
+	ProjectSection(SolutionItems) = preProject
+		Licences\LICENCE = Licences\LICENCE
+		Licences\LICENCE.LEAFLET.KSP = Licences\LICENCE.LEAFLET.KSP
+		Licences\LICENSE.SimpleJSON = Licences\LICENSE.SimpleJSON
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemachusPages", "TelemachusPages\TelemachusPages.csproj", "{8CC0D6C3-8EAF-4296-892C-0F881D3F99CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,9 +44,24 @@ Global
 		{AF7DF6B2-7D88-4399-92FC-E21EC15231DE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{AF7DF6B2-7D88-4399-92FC-E21EC15231DE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{AF7DF6B2-7D88-4399-92FC-E21EC15231DE}.Release|x86.ActiveCfg = Release|Any CPU
+		{8CC0D6C3-8EAF-4296-892C-0F881D3F99CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC0D6C3-8EAF-4296-892C-0F881D3F99CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC0D6C3-8EAF-4296-892C-0F881D3F99CA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8CC0D6C3-8EAF-4296-892C-0F881D3F99CA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8CC0D6C3-8EAF-4296-892C-0F881D3F99CA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8CC0D6C3-8EAF-4296-892C-0F881D3F99CA}.Debug|x86.Build.0 = Debug|Any CPU
+		{8CC0D6C3-8EAF-4296-892C-0F881D3F99CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC0D6C3-8EAF-4296-892C-0F881D3F99CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CC0D6C3-8EAF-4296-892C-0F881D3F99CA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8CC0D6C3-8EAF-4296-892C-0F881D3F99CA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8CC0D6C3-8EAF-4296-892C-0F881D3F99CA}.Release|x86.ActiveCfg = Release|Any CPU
+		{8CC0D6C3-8EAF-4296-892C-0F881D3F99CA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1994DEE0-CB43-4F2C-947F-65195890FD7B} = {8D3E7CD5-4B7C-4FEB-A8CA-17B8DB3B2CD7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E444BC91-A875-48C1-9E6B-B875B6149261}
